@@ -1,0 +1,11 @@
+version: '2'
+services:
+    
+    mailslurper:
+        image: marcopas/docker-mailslurper
+        ports:
+            - 2500:2500
+            - 9000:8080
+            - 8085:8085
+        # volumes:
+        #    - $PWD/custom-config.json:/opt/mailslurper/config.json
