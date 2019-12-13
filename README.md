@@ -14,22 +14,29 @@ The image contains a default MailSlurper config file (`config.json`). A custom c
 Example custom config file `custom-config.json`:
 ```
 {
-    "wwwAddress": "0.0.0.0",
-    "wwwPort": 8080,
-    "serviceAddress": "0.0.0.0",
-    "servicePort": 8085,
-    "smtpAddress": "0.0.0.0",
-    "smtpPort": 2500,
-    "dbEngine": "SQLite",
-    "dbHost": "",
-    "dbPort": 0,
-    "dbDatabase": "./mailslurper.db",
-    "dbUserName": "",
-    "dbPassword": "",
-    "maxWorkers": 1000,
-    "autoStartBrowser": false,
-    "keyFile": "",
-    "certFile": ""
+	"wwwAddress": "0.0.0.0",
+	"wwwPort": 8080,
+	"serviceAddress": "0.0.0.0",
+	"servicePort": 8085,
+	"smtpAddress": "0.0.0.0",
+	"smtpPort": 2500,
+	"dbEngine": "SQLite",
+	"dbHost": "",
+	"dbPort": 0,
+	"dbDatabase": "./mailslurper.db",
+	"dbUserName": "",
+	"dbPassword": "",
+	"maxWorkers": 1000,
+	"autoStartBrowser": false,
+	"keyFile": "",
+	"certFile": "",
+	"adminKeyFile": "",
+	"adminCertFile": "",
+	"authenticationScheme": "",
+	"authSecret": "",
+	"authSalt": "",
+	"authTimeoutInMinutes": 120,
+	"credentials": {}
 }
 ```
 
