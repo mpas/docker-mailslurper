@@ -51,4 +51,5 @@ There is an assumption you have installed docker-compose!
 `docker-compose up`
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
+[MIT](LICENSE.md)
