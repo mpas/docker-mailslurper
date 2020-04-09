@@ -1,5 +1,4 @@
-FROM ubuntu:17.04
-MAINTAINER Marco Pas "marco.pasopas@gmail.com"
+FROM ubuntu:20.04
 
 RUN mkdir /opt/mailslurper
 
